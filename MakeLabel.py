@@ -19,14 +19,16 @@ if __name__ == "__main__":
     Ansan_cts_raw = 'Ansan_CTS_raw'
     Ansan_median_raw = 'Ansan_median_raw'
     Test_raw = 'test_raw'
-
+    cpn_raw = 'CPN_raw'
+    
     Ansan_cts = 'Ansan_CTS'
     Ansan_median = 'Ansan_median'
     Test = 'test'
+    cpn = 'CPN'
     
     # Set working directory
-    cwd_raw = Ansan_median_raw
-    cwd = Ansan_median 
+    cwd_raw = cpn_raw
+    cwd = cpn 
     
     
     root_dir = os.path.join(os.getcwd(), 'Ansan', 'data')
